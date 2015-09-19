@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0"
   }
 }
