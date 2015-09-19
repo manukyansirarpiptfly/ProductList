@@ -1,15 +1,20 @@
-var HeaderContainer = React.createClass({ 
+var ProductsContainer = React.createClass({ 
 
   render: function() {
    
     return (
       <div className="content">
-          Hello From React Components
+        <div className="row">
+           <Product />
+           <Product />
+           <Product />
+        </div>
       </div> 
     );
   }
 });
-React.render(<HeaderContainer />, document.getElementById('container'));
+
+React.render(<ProductsContainer />, document.getElementById('container'));
 
 
 
